@@ -26,22 +26,22 @@ function getUserRole($user_role)
     }
 }
 
-function getActive($isActive)
-{
-    switch ($isActive) {
-        case IsActive::Active:
-            return "Active";
-        case IsActive::NotActive;
-            return "NotActive";
-        case IsActive::Blocked:
-            return "This User Blocked";
-        case IsActive::NotInBlock:
-        return "Not Blocked. Allowed";
-        case IsActive::Deleted:
-            return "This User Deleted";
-        case IsActive::NotDeleted:
-            return "Allowed User Not Deleted";
-    }
+// function getActive($isActive)
+// {
+//     switch ($isActive) {
+//         case IsActive::Active:
+//             return "Active";
+//         case IsActive::NotActive;
+//             return "NotActive";
+//         case IsActive::Blocked:
+//             return "This User Blocked";
+//         case IsActive::NotInBlock:
+//         return "Not Blocked. Allowed";
+//         case IsActive::Deleted:
+//             return "This User Deleted";
+//         case IsActive::NotDeleted:
+//             return "Allowed User Not Deleted";
+//     }
 
 
-}
+// }
